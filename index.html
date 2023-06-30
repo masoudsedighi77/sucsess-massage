@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>
+    Newsletter sign-up form with success message
+    </title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <div class="container">
+      <div class="header-image"></div>
+
+      <div class="rest">
+        <h1 class="header">Stay updated</h1>
+        <p class="join">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul class="list">
+          <li class="list-item">
+            <img src="./assets/images/icon-list.svg" class="list-image" />
+            <p class="list-description">
+              Product discovery and building what matters
+            </p>
+          </li>
+          <li class="list-item">
+            <img src="./assets/images/icon-list.svg" class="list-image" />
+            <p class="list-description">
+              Measuring ro ensure updates are a success
+            </p>
+          </li>
+          <li class="list-item">
+            <img src="./assets/images/icon-list.svg" class="list-image" />
+            <p class="list-description">And much more!</p>
+          </li>
+        </ul>
+
+        <label for="email">Email address</label>
+        <input type="text" id="email" placeholder="email@company.com" />
+        <button id="sub">Suscribe to monthly newsletter</button>
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal-container">
+      <img src="./assets/images/icon-success.svg" class="modal-logo" />
+      <h1 class="thank">Thanks fo subscribing!</h1>
+      <p class="modal-description">
+        A confirmation email has been sent to ash@loremcompany.com. Please open
+        it and click the button inside to confirm your subscription.
+      </p>
+      <button id="dismiss">Dismiss message</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
